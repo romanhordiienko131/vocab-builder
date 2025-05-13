@@ -33,11 +33,21 @@
     --color-green: #85aa9f;
     --color-white: #fcfcfc;
     --color-white-1: #f8f8f8;
+
+    --breakpoint-mb: 23.438rem;
+    --breakpoint-tb: 48rem;
+    --breakpoint-dt: 90rem;
+
+    --tracking-1: 0.01em;
+    --tracking-2: 0.02em;
+}
+
+button {
+    cursor: pointer;
 }
 
 body {
     background-color: var(--color-white-1);
     font-family: 'Fixel Display', sans-serif;
-    font-weight: 500;
     color: var(--color-black);
 }
